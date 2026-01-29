@@ -9,9 +9,6 @@ export default function NavBar() {
   return (
     <header className="nav">
       <div className="navInner">
-        <NavLink to="/" className="brand" onClick={() => setOpen(false)}>
-          Brayden
-        </NavLink>
 
         <button
           className="menuButton"
@@ -23,6 +20,9 @@ export default function NavBar() {
         </button>
 
         <nav className={open ? "links open" : "links"}>
+          <NavLink to="/" className={linkClass} onClick={() => setOpen(false)}>
+            Home
+          </NavLink>
           <NavLink to="/projects" className={linkClass} onClick={() => setOpen(false)}>
             Projects
           </NavLink>
