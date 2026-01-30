@@ -7,7 +7,15 @@ export default function Home() {
           <h1>Brayden O’Briant</h1>
           <p className="subtitle">Electrical & Computer Engineering</p>
           <p>
-            *placeholder text*
+            I am an Electrical and Computer Engineering student with experience leading
+            projects through the full engineering design process and building data-driven
+            software tools.
+          </p>
+
+          <p>
+            My work includes energy modeling, systems analysis, and applied machine
+            learning, with a focus on clear requirements, validation, and maintainable
+            design.
           </p>
 
           <div className="heroActions">
