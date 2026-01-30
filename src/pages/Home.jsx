@@ -19,7 +19,7 @@ export default function Home() {
           </p>
 
           <div className="heroActions">
-            <a className="button" href="/Brayden_OBriant_Resume.pdf" target="_blank" rel="noopener noreferrer">
+            <a className="button" href="/Resume.pdf" target="_blank" rel="noopener noreferrer">
               View Resume
             </a>
             <a className="buttonSecondary" href="/projects">
