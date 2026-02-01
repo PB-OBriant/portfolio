@@ -22,7 +22,7 @@ export default function Home() {
             <a className="button" href="/Resume.pdf" target="_blank" rel="noopener noreferrer">
               View Resume
             </a>
-            <a className="buttonSecondary" href="/projects">
+            <a className="buttonSecondary" href="/Projects">
               See Projects
             </a>
           </div>
